@@ -17,6 +17,7 @@ import PriceScreen from './screens/PriceScreen';
 import FoodScreen from './screens/FoodScreen';
 import RulesScreen from './screens/RulesScreen';
 import PartyScreen from './screens/PartyScreen';
+import CartScreen from './screens/CartScreen';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -27,6 +28,8 @@ const router = createBrowserRouter(
       <Route path='/food' element={<FoodScreen />} />
       <Route path='/rules' element={<RulesScreen />} />
       <Route path='/party' element={<PartyScreen />} />
+      <Route path='/cart' element={<CartScreen />} />
+      
 
     </Route>
   )
